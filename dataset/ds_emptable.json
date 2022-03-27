@@ -1,0 +1,27 @@
+{
+	"name": "ds_emptable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "link_sql_sumitdev",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "names",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "empdelimited"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

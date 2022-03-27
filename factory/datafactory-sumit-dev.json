@@ -1,0 +1,9 @@
+{
+	"name": "datafactory-sumit-dev",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "466bd247-9eb0-4475-9c64-e00cfe48c755",
+		"tenantId": "ada155e3-ae31-40b0-af1a-fab99ab3015c"
+	}
+}

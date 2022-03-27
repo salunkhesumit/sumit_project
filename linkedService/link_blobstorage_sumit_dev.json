@@ -1,0 +1,12 @@
+{
+	"name": "link_blobstorage_sumit_dev",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=blobstoragesumitdev;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEIyODg3RTg0LTY2MUEtNEY0MC04MUQxLTk3NzYyQzg2MUQ2Rl8yYWM2ZTkwYi0wYmMzLTQzMDItOWMyZS0zZmUwY2ZkMDRmNmEiDQp9"
+		}
+	}
+}
