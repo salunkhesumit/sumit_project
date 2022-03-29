@@ -20,6 +20,7 @@
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
 							"recursive": true,
+							"wildcardFileName": "*.txt",
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
@@ -67,7 +68,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "ds_blobstorage_latestfile",
+						"referenceName": "ds_blobstorage_Folder",
 						"type": "DatasetReference"
 					}
 				],

@@ -1,5 +1,5 @@
 {
-	"name": "ds_blobstorage_latestfile",
+	"name": "ds_blobstorage_Folder",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "link_blobstorage_sumit_dev",
@@ -10,7 +10,6 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "*.txt",
 				"container": "import"
 			},
 			"columnDelimiter": ";",
