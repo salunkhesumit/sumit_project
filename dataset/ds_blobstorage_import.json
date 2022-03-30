@@ -1,0 +1,22 @@
+{
+	"name": "ds_blobstorage_import",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "link_blobstorage_sumit_dev",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "import"
+			},
+			"columnDelimiter": ";",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
