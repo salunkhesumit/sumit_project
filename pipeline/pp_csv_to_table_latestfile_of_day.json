@@ -44,9 +44,14 @@
 				],
 				"userProperties": [],
 				"typeProperties": {
+					"items": {
+						"value": "@activity('Get all file Name').output",
+						"type": "Expression"
+					},
+					"isSequential": true,
 					"activities": [
 						{
-							"name": "Get Metadata_ReadLastModified",
+							"name": "Get Metadata1",
 							"type": "GetMetadata",
 							"dependsOn": [],
 							"policy": {
